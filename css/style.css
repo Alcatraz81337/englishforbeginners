@@ -90,7 +90,8 @@ body {
 }
 .main {
   width: 100%;
-  padding-top: 77px;
+  padding-top: 75px;
+  padding-bottom: 75px;
   background: #FFFFFF;
   border: 3px solid #FA8669;
   box-shadow: 0px 4px 4px rgba(250, 134, 105, 0.25);
@@ -130,18 +131,18 @@ body {
   margin-bottom: 76px;
 }
 .main-button {
-  
   background: #FA8669;
   border: none;
   color: #FFFFFF;
 }
 .course-authors {
   align-items: center;
+  padding-top: 75px;
+  padding-bottom: 75px;
 }
 .who-leads {
   text-align: center;
-  margin-top: 75px;
-  margin-bottom: 85px;
+  margin-bottom: 55px;
 }
 .about-us {
   display: flex;
@@ -157,15 +158,25 @@ body {
 }
 .authors {
   margin: auto;
+  display: flex;
 }
 .author {
-  margin-bottom: 50px;
   display: flex;
-  justify-content: space-around;
-}
-.author-about {
+  margin-bottom: 50px;
+  flex-direction: column;
   max-width: 532px;
+  flex-direction: column;
 }
+.author:first-child {
+  margin-right: 25px;
+}
+.author-image {
+  order: 3;
+  margin-bottom: 20px;
+   }
+.author-text {
+  order: 5;
+   }
 .author-name {
   margin-bottom: 10px;
   display: block;
@@ -173,6 +184,13 @@ body {
 .author-subname {
   margin-bottom: 35px;
   display: block;
+}
+.author-photo {
+  border: 3px solid #FA8669;
+  box-shadow: 0px 4px 4px rgba(250, 134, 105, 0.25);
+}
+.author-text {
+  padding-right: 5%;
 }
 .course-leaded-by {
   display: flex;
@@ -723,7 +741,10 @@ body {
  }
 }
 @media (max-width: 576px) {
-  
+  .main {
+    display: flex;
+    padding-bottom: 55px;
+  }
   .header {
     display: none;
    }
@@ -738,9 +759,32 @@ body {
      margin-left: 0;
    }
    .main-subtitle {
-     margin: auto;
      margin-right: 5%;
      margin-left: 5%;
+   }
+   .who-leads {
+     margin-bottom: 35px;
+   }
+   .about-us {
+     display: block;
+   }
+   .about-us-text {
+     margin-top: 25px;
+   }
+   .authors {
+     flex-direction: column;
+   }
+   .course-authors {
+     padding-left: 5%;
+     padding-right: 5%;
+   }
+   .course-leaded-by {
+     padding-left: 5%;
+     padding-right: 5%;
+   }
+   .who-this-course-for {
+     padding-left: 5%;
+     padding-right: 5%;
    }
    .cards {
      display: block;
@@ -812,7 +856,7 @@ body {
     justify-content: center;
     text-align: center;
   }
-  ..action-header-info .action-logo {
+  .action-header-info .action-logo {
     flex-basis: 20%;
   }
 }
