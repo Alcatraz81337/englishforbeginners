@@ -740,7 +740,7 @@ body {
    order: 4;
  }
 }
-@media (max-width: 576px) {
+@media (max-width: 768px) {
   .main {
     display: flex;
     padding-bottom: 55px;
