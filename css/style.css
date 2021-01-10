@@ -742,10 +742,77 @@ body {
      margin-right: 5%;
      margin-left: 5%;
    }
-   .main-button {
-
+   .cards {
+     display: block;
+   }
+   .card-white,
+   .card-with-border {
+     margin-bottom: 30px;
+   }
+   .stage-icon {
+     margin-right: 25px;
+   }
+   .video-container {
+     max-width: 360px;
+   }
+   .hw-example {
+     flex-direction: column;
+     margin-top: 45px;
+   }
+   .hw-example_description {
+     padding: 10px;
+     margin-right: 0;
+     margin-bottom: 15px;
    }
    .action {
      flex-direction: column;
+     margin: auto;
+     padding-right: 10%;
+     padding-left: 10%;
    }
+   .action-block-header {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+   }
+   .action-author-name {
+     margin-left: 0;
+   }
+   .action-links {
+     display: block;
+     flex-basis: 100%;
+     margin-right: 0;
+     flex-basis: 100%;
+     flex-wrap: wrap;
+   }
+   .telegram,
+   .whatsapp {
+  flex-basis: 100%;
+  margin-right: 0;
+  }
+  .whatsapp {
+    margin-bottom: 20px;
+  }
+  .price-card {
+    margin-bottom: 35px;
+  }
+  .who-this-course-title {
+    margin-bottom: 45px;
+  }
+  .questions-info .who-this-course-title {
+    padding: 0 5%;
+  }
+  .action-block {
+    padding: 0 5%;
+  }
+  .action-header-info {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  ..action-header-info .action-logo {
+    flex-basis: 20%;
+  }
 }
