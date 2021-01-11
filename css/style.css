@@ -4,6 +4,7 @@
 body {
   font-family: 'Merriweather',serif;
   font-family: 'Oswald',sans-serif;
+  font-display: swap;
   color: #303030;
 }
 .main-text-regular {
@@ -741,9 +742,22 @@ body {
  }
 }
 @media (max-width: 768px) {
+  .main,
+  .course-authors,
+  .course-leaded-by,
+  .who-this-course-for,
+  .what-in-course,
+  .how-is-course,
+  .action, 
+  .reviews, 
+  .course-price,
+  .questions-info,
+  .main-info {
+    padding-top: 55px;
+    padding-bottom: 55px;
+  }
   .main {
     display: flex;
-    padding-bottom: 55px;
   }
   .header {
     display: none;

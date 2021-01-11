@@ -18,7 +18,6 @@
 <link rel="stylesheet" href="css\style.css">
 <link rel="stylesheet" href="css\font-awesome.min.css">
 <link rel="stylesheet" href="css\bootstrap.min.css">
-<script src="srcipts\index.js" type="module"></script>
 <body>
   <div class="container-xl">
   <header class="header">
@@ -35,12 +34,12 @@
     </nav>
     </div>
   </header>
-  <main class="main">
+<main class="main">
     <div class="main-title">
       <div class="title">
       <picture class="picture">
-	      <source srcset="css\img\logo.jpg" type="image/webp">
-	      <img src="css\img\logo.jpg" class="rounded-circle" width="100" height="100" alt="Logo">
+	      <source srcset="css\img\webp\logo.webp" type="image/webp">
+	      <img src="css\img\logo.jpg" class="rounded-circle" width="100" height="100" loading="lazy" alt="Логотип школы">
       </picture>
       <h2 class="school-name title-text">Онлайн-школа английского <br/>«English Charisma»</h2>
       </div>
@@ -56,16 +55,16 @@
 с&nbsp;учителем, видеоуроками <br/>
 и&nbsp;домашними заданиями. Онлайн 
 </p>
-<a href="SignUp" class="main-button title-text p-3">Записаться на курс</a>
+<a href="#SignUp" class="main-button title-text p-3">Записаться на курс</a>
 </div>
-  </main>
-  <div class="course-authors" id="Who">
+</main>
+<section class="course-authors" id="Who">
     <h3 class="who-leads title-text">Кто проводит курс</h3>
     <div class="about-us">
       <div class="logo">
       <picture class="picture-header">
 	      <source srcset="css\img\webp\logo.webp" type="image/webp">
-	      <img src="css\img\logo.jpg" class="rounded-circle about-us-logo" width="250" height="250" alt="Логотип">
+	      <img src="css\img\logo.jpg" class="rounded-circle about-us-logo" width="250" height="250" loading="lazy" alt="Логотип школы">
       </picture>
     </div>
     <div class="about-us-text">
@@ -89,7 +88,7 @@
         <div class="author-image">
         <picture class="picture-header">
 	      <source srcset="css\img\authors\marina.webp" type="image/webp">
-	      <img src="css\img\authors\marina.jpg" class="author-photo" width="260" height="360" alt="Марина Александровна">
+	      <img src="css\img\authors\marina.jpg" class="author-photo" width="260" height="360" loading="lazy" alt="Марина Александровна">
         </picture>
         </div>
       </hero>
@@ -104,18 +103,18 @@
         <div class="author-image">
       <picture class="picture-header">
 	      <source srcset="css\img\authors\victorya.webp" type="image/webp">
-	      <img src="css\img\authors\victorya.jpg" class="author-photo" width="260" height="360" alt="Виктория Александровна">
+	      <img src="css\img\authors\victorya.jpg" class="author-photo" width="260" height="360" loading="lazy" alt="Виктория Александровна">
       </picture>
         </div>
       </hero>
     </div>
-  </div>
+</section>
 </div>
 <!-- /.container-xl -->
 
 <section class="course-leaded-by">
       <span class="course-leaded-text title-text">
-        Курс «Базовый английский» проводит <br/>
+        Курс «Английский для&nbsp;начинающих» проводит <br/>
 Марина Александровна
       </span>
 </section>
@@ -288,25 +287,25 @@
           <div class="stage-2-image-block">
         <picture class="picture-stage">
 	      <source srcset="css\img\webp\stage-2-image-1.webp" type="image/webp">
-	      <img src="css\img\how-is-course\stage-2-image-1.jpeg" class="stage-2-image" width="320" height="500" alt="Урок 15 часть 1">
+	      <img src="css\img\how-is-course\stage-2-image-1.jpeg" class="stage-2-image" width="320" height="500" loading="lazy" alt="Урок 15 часть 1">
         </picture>
           </div>
           <div class="stage-2-image-block">
             <picture class="picture-stage">
 	      <source srcset="css\img\webp\stage-2-image-2.webp" type="image/webp">
-	      <img src="css\img\how-is-course\stage-2-image-2.jpeg" class="stage-2-image" width="320" height="500" alt="Урок 15 часть 2">
+	      <img src="css\img\how-is-course\stage-2-image-2.jpeg" class="stage-2-image" width="320" height="500" loading="lazy" alt="Урок 15 часть 2">
         </picture>
           </div>
           <div class="stage-2-image-block">
             <picture class="picture-stage">
 	      <source srcset="css\img\webp\stage-2-image-3.webp" type="image/webp">
-	      <img src="css\img\how-is-course\stage-2-image-3.jpeg" class="stage-2-image" width="320" height="500" alt="Урок 15 часть 3">
+	      <img src="css\img\how-is-course\stage-2-image-3.jpeg" class="stage-2-image" width="320" height="500" loading="lazy" alt="Урок 15 часть 3">
         </picture>
           </div>
           <div class="stage-2-image-block">
             <picture class="picture-stage">
 	      <source srcset="css\img\webp\stage-2-image-4.webp" type="image/webp">
-	      <img src="css\img\how-is-course\stage-2-image-4.jpeg" class="stage-2-image" width="320" height="500" alt="Все уроки">
+	      <img src="css\img\how-is-course\stage-2-image-4.jpeg" class="stage-2-image" width="320" height="500" loading="lazy" alt="Все уроки">
         </picture>
           </div>
       </div>
@@ -326,7 +325,7 @@
           <div class="stage-3-image-block">
         <picture class="picture-stage">
 	      <source srcset="css\img\webp\hw-example-1.webp" type="image/webp">
-	      <img src="css\img\homework\hw-example-1.jpg" class="stage-3-image" width="330" height="200" alt="Домашнее задание">
+	      <img src="css\img\homework\hw-example-1.jpg" class="stage-3-image" width="330" height="200" loading="lazy" alt="Домашнее задание">
         </picture>
           </div>
 
@@ -349,12 +348,12 @@
             <div class="stage-content-3_2">
         <picture class="picture-stage">
 	      <source srcset="css\img\webp\hw-example-2.webp" type="image/webp">
-	      <img src="css\img\homework\hw-example-2.jpg" class="stage-3-image" width="360" height="200" alt="Домашнее задание">
+	      <img src="css\img\homework\hw-example-2.jpg" class="stage-3-image" width="360" height="200" loading="lazy" alt="Домашнее задание">
         </picture>
 
         <div class="video-container mt-4 mb-4">
           <span class="video-homework-description main-text-italic">Видеопример, как я проверяю домашнее задание</span>
-					<video src="video\hw-check.mp4" class="player video-player" poster="video/hw-play.jpg"></video>
+					<video src="video\hw-check.mp4" class="player video-player" poster="video/hw-play.jpg" preload="none"></video>
 					<nav class="video-navigation">
 						<button class="video-button video-button__play fa fa-play"></button>
 						<p class="video-time video-time__passed main-text-regular">00:00</p>
@@ -373,7 +372,7 @@
         <span class="hw-review-description main-text-italic">Пример, как я проверила работу ученика</span>
         <picture class="picture-stage">
 	      <source srcset="css\img\webp\hw-review.webp" type="image/webp">
-	      <img src="css\img\homework\hw-review.jpeg" class="stage-3-image" width="280" height="480" alt="Домашнее задание">
+	      <img src="css\img\homework\hw-review.jpeg" class="stage-3-image" width="280" height="480" loading="lazy" alt="Домашнее задание">
         </picture>
         </div>
             </div>
@@ -388,7 +387,7 @@
           <div class="hw-example_video">
           <div class="video-container video-container-2">
           <span class="video-homework-description main-text-italic">Пример урока</span>
-					<video src="video\presentation.mp4" class="player video-player-2" poster="video\presentation-play.jpg"></video>
+					<video src="video\presentation.mp4" class="player video-player-2" poster="video\presentation-play.jpg" preload="none"></video>
 					<nav class="video-navigation">
 						<button class="video-button video-button__play-2 fa fa-play"></button>
 						<p class="video-time video-time__passed-2 main-text-regular">00:00</p>
@@ -417,25 +416,25 @@
         <div class="stage-2-image-block">
         <picture class="picture-stage">
 	      <source srcset="css\img\webp\book1.webp" type="image/webp">
-	      <img src="css\img\book1.jpg" class="stage-2-image" width="320" height="500" alt="Урок 15 часть 1">
+	      <img src="css\img\book1.jpg" class="stage-2-image" width="320" height="500" loading="lazy" alt="Урок 15 часть 1">
         </picture>
           </div>
           <div class="stage-2-image-block">
             <picture class="picture-stage">
 	      <source srcset="css\img\webp\book2.webp" type="image/webp">
-	      <img src="css\img\book2.jpg" class="stage-2-image" width="320" height="500" alt="Урок 15 часть 2">
+	      <img src="css\img\book2.jpg" class="stage-2-image" width="320" height="500" loading="lazy" alt="Урок 15 часть 2">
         </picture>
           </div>
           <div class="stage-2-image-block">
             <picture class="picture-stage">
 	      <source srcset="css\img\webp\book3.webp" type="image/webp">
-	      <img src="css\img\book3.jpg" class="stage-2-image" width="320" height="500" alt="Урок 15 часть 3">
+	      <img src="css\img\book3.jpg" class="stage-2-image" width="320" height="500" loading="lazy" alt="Урок 15 часть 3">
         </picture>
           </div>
           <div class="stage-2-image-block">
             <picture class="picture-stage">
 	      <source srcset="css\img\webp\book4.webp" type="image/webp">
-	      <img src="css\img\book4.jpg" class="stage-2-image" width="320" height="500" alt="Все уроки">
+	      <img src="css\img\book4.jpg" class="stage-2-image" width="320" height="500" loading="lazy" alt="Все уроки">
         </picture>
           </div>
 
@@ -457,7 +456,7 @@
       <div class="action-logo">
         <picture class="picture">
 	      <source srcset="css\img\webp\logo.webp" type="image/webp">
-	      <img src="css\img\logo.jpg" class="rounded-circle" width="70" height="70" alt="Logo">
+	      <img src="css\img\logo.jpg" class="rounded-circle" width="70" height="70" loading="lazy" alt="Логотип школы">
         </picture>
       </div>
       <!-- /.logo -->
@@ -502,37 +501,37 @@
         <div class="stage-2-image-block">
         <picture class="picture-stage">
 	      <source srcset="css\img\webp\1-review.webp" type="image/webp">
-	      <img src="css\img\reviews-img\1-review.jpg" class="stage-2-image review-image" width="350" height="170" alt="Отзыв">
+	      <img src="css\img\reviews-img\1-review.jpg" class="stage-2-image review-image" width="350" height="170" loading="lazy" alt="Отзыв">
         </picture>
         </div>
         <div class="stage-2-image-block">
         <picture class="picture-stage">
 	      <source srcset="css\img\webp\2-review.webp" type="image/webp">
-	      <img src="css\img\reviews-img\2-review.jpg" class="stage-2-image review-image" width="350" height="370" alt="Отзыв">
+	      <img src="css\img\reviews-img\2-review.jpg" class="stage-2-image review-image" width="350" height="370" loading="lazy" alt="Отзыв">
         </picture>
         </div>
         <div class="stage-2-image-block">
         <picture class="picture-stage">
 	      <source srcset="css\img\webp\3-review.webp" type="image/webp">
-	      <img src="css\img\reviews-img\3-review.jpg" class="stage-2-image review-image" width="350" height="90" alt="Отзыв">
+	      <img src="css\img\reviews-img\3-review.jpg" class="stage-2-image review-image" width="350" height="90" loading="lazy" alt="Отзыв">
         </picture>
         </div>
         <div class="stage-2-image-block">
         <picture class="picture-stage">
 	      <source srcset="css\img\webp\4-review.webp" type="image/webp">
-	      <img src="css\img\reviews-img\4-review.jpg" class="stage-2-image review-image" width="350" height="300" alt="Отзыв">
+	      <img src="css\img\reviews-img\4-review.jpg" class="stage-2-image review-image" width="350" height="300" loading="lazy" alt="Отзыв">
         </picture>
         </div>
         <div class="stage-2-image-block">
         <picture class="picture-stage">
 	      <source srcset="css\img\webp\5-review.webp" type="image/webp">
-	      <img src="css\img\reviews-img\5-review.jpg" class="stage-2-image review-image" width="350" height="200" alt="Отзыв">
+	      <img src="css\img\reviews-img\5-review.jpg" class="stage-2-image review-image" width="350" height="200" loading="lazy" alt="Отзыв">
         </picture>
         </div>
         <div class="stage-2-image-block">
         <picture class="picture-stage">
 	      <source srcset="css\img\webp\6-review.webp" type="image/webp">
-	      <img src="css\img\reviews-img\6-review.jpg" class="stage-2-image review-image" width="350" height="520" alt="Отзыв">
+	      <img src="css\img\reviews-img\6-review.jpg" class="stage-2-image review-image" width="350" height="520" loading="lazy" alt="Отзыв">
         </picture>
         </div>
       </div>
@@ -544,25 +543,25 @@
         <div class="stage-2-image-block">
         <picture class="picture-stage">
 	      <source srcset="css\img\webp\7-review.webp" type="image/webp">
-	      <img src="css\img\reviews-img\7-review.jpg" class="stage-2-image review-image" width="350" height="280" alt="Отзыв">
+	      <img src="css\img\reviews-img\7-review.jpg" class="stage-2-image review-image" width="350" height="280" loading="lazy" alt="Отзыв">
         </picture>
         </div>
         <div class="stage-2-image-block">
         <picture class="picture-stage">
 	      <source srcset="css\img\webp\8-review.webp" type="image/webp">
-	      <img src="css\img\reviews-img\8-review.jpg" class="stage-2-image review-image" width="350" height="245" alt="Отзыв">
+	      <img src="css\img\reviews-img\8-review.jpg" class="stage-2-image review-image" width="350" height="245" loading="lazy" alt="Отзыв">
         </picture>
         </div>
         <div class="stage-2-image-block">
         <picture class="picture-stage">
 	      <source srcset="css\img\webp\9-review.webp" type="image/webp">
-	      <img src="css\img\reviews-img\9-review.jpg" class="stage-2-image review-image" width="350" height="460" alt="Отзыв">
+	      <img src="css\img\reviews-img\9-review.jpg" class="stage-2-image review-image" width="350" height="460" loading="lazy" alt="Отзыв">
         </picture>
         </div>
         <div class="stage-2-image-block">
         <picture class="picture-stage">
 	      <source srcset="css\img\webp\10-review.webp" type="image/webp">
-	      <img src="css\img\reviews-img\10-review.jpg" class="stage-2-image review-image" width="350" height="480" alt="Отзыв">
+	      <img src="css\img\reviews-img\10-review.jpg" class="stage-2-image review-image" width="350" height="480" loading="lazy" alt="Отзыв">
         </picture>
         </div>
       </div>
@@ -574,25 +573,25 @@
         <div class="stage-2-image-block">
         <picture class="picture-stage">
 	      <source srcset="css\img\webp\11-review.webp" type="image/webp">
-	      <img src="css\img\reviews-img\11-review.jpg" class="stage-2-image review-image" width="350" height="375" alt="Отзыв">
+	      <img src="css\img\reviews-img\11-review.jpg" class="stage-2-image review-image" width="350" height="375" loading="lazy" alt="Отзыв">
         </picture>
         </div>
         <div class="stage-2-image-block">
         <picture class="picture-stage">
 	      <source srcset="css\img\webp\12-review.webp" type="image/webp">
-	      <img src="css\img\reviews-img\12-review.jpg" class="stage-2-image review-image" width="350" height="150" alt="Отзыв">
+	      <img src="css\img\reviews-img\12-review.jpg" class="stage-2-image review-image" width="350" height="150" loading="lazy" alt="Отзыв">
         </picture>
         </div>
         <div class="stage-2-image-block">
         <picture class="picture-stage">
 	      <source srcset="css\img\webp\13-review.webp" type="image/webp">
-	      <img src="css\img\reviews-img\13-review.jpg" class="stage-2-image review-image" width="350" height="410" alt="Отзыв">
+	      <img src="css\img\reviews-img\13-review.jpg" class="stage-2-image review-image" width="350" height="410" loading="lazy" alt="Отзыв">
         </picture>
         </div>
         <div class="stage-2-image-block">
         <picture class="picture-stage">
 	      <source srcset="css\img\webp\14-review.webp" type="image/webp">
-	      <img src="css\img\reviews-img\14-review.jpg" class="stage-2-image review-image" width="350" height="480" alt="Отзыв">
+	      <img src="css\img\reviews-img\14-review.jpg" class="stage-2-image review-image" width="350" height="480" loading="lazy" alt="Отзыв">
         </picture>
         </div>
       </div>
@@ -619,7 +618,7 @@
       <div class="price-icon mb-2">
       <picture class="picture-stage">
 	      <source srcset="css\img\flags\Kazakhstan.webp" type="image/webp">
-	      <img src="css\img\flags\Kazakhstan.png" class="flag-image" width="50" height="50" alt="Казахстан">
+	      <img src="css\img\flags\Kazakhstan.png" class="flag-image" width="50" height="50" loading="lazy" alt="Казахстан">
       </picture>
       </div>
       <div class="price-text">
@@ -637,7 +636,7 @@
       <div class="price-icon mb-2">
       <picture class="picture-stage">
 	      <source srcset="css\img\flags\Russia.webp" type="image/webp">
-	      <img src="css\img\flags\Russia.png" class="flag-image" width="50" height="50" alt="Казахстан">
+	      <img src="css\img\flags\Russia.png" class="flag-image" width="50" height="50" loading="lazy" alt="Казахстан">
       </picture>
       </div>
       <div class="price-text">
@@ -655,7 +654,7 @@
       <div class="price-icon mb-2">
       <picture class="picture-stage">
 	      <source srcset="css\img\flags\Ukraine.webp" type="image/webp">
-	      <img src="css\img\flags\Ukraine.png" class="flag-image" width="50" height="50" alt="Казахстан">
+	      <img src="css\img\flags\Ukraine.png" class="flag-image" width="50" height="50" loading="lazy" alt="Казахстан">
       </picture>
       </div>
       <div class="price-text">
@@ -764,7 +763,7 @@
 
 <section class="main-info" id="Main">
   <h3 class="who-this-course-title title-text">Самое главное о курсе</h3>
-  <div class="main-info-blocks container-md m-auto d-flex justify-content-center align-content-center">
+  <div class="main-info-blocks container-md m-auto d-flex justify-content-center align-content-center main-text-regular">
     <div class="main-info-block p-2 m-3">
       Данный формат обучения подходит для тех, кто имеет желание учиться, получить качественные знания, приложив собственные усилия
     </div>
@@ -783,7 +782,7 @@
   </div>
 </section>
 
-<section class="action-main">
+<section class="action-main" id="SignUp">
   <div class="action-main-header mb-5">
     <h3 class="who-this-course-title title-text">Записаться на курс</h3>
     <p class="action-main-subtitle main-text-regular">
@@ -798,7 +797,7 @@
       <div class="action-logo">
         <picture class="picture">
 	      <source srcset="css\img\webp\logo.webp" type="image/webp">
-	      <img src="css\img\logo.jpg" class="rounded-circle" width="70" height="70" alt="Logo">
+	      <img src="css\img\logo.jpg" class="rounded-circle" width="70" height="70" loading="lazy" alt="Logo">
         </picture>
       </div>
       <!-- /.logo -->
@@ -831,5 +830,6 @@
   </div>
 </section>
 
+<script src="srcipts\index.js" type="module"></script>
 </body>
 </html>
