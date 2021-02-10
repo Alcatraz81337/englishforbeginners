@@ -167,6 +167,8 @@ body {
   flex-direction: column;
   max-width: 532px;
   flex-direction: column;
+  border: 3px solid #FA8669;
+  box-shadow: 0px 4px 4px rgba(250, 134, 105, 0.25);
 }
 .author:first-child {
   margin-right: 25px;
@@ -186,10 +188,7 @@ body {
   margin-bottom: 35px;
   display: block;
 }
-.author-photo {
-  border: 3px solid #FA8669;
-  box-shadow: 0px 4px 4px rgba(250, 134, 105, 0.25);
-}
+
 .author-text {
   padding-right: 5%;
 }
