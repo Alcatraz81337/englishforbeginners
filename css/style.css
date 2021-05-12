@@ -657,7 +657,8 @@ body {
 .result-heading-feature {
   background: #FA8669;
   color: #FFFFFF;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem;
+  margin-top: 5px;
 }
 
 .results-subtitle {
