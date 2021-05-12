@@ -654,6 +654,10 @@ body {
   margin: auto;
 }
 
+.results-intro-text {
+  text-align: center;
+}
+
 .result-heading-feature {
   background: #FA8669;
   color: #FFFFFF;
@@ -670,10 +674,11 @@ body {
   border: 3px solid #FA8669;
   box-shadow: 0px 4px 4px rgba(250, 134, 105, 0.25);
   background-color: #fff;
-  padding: 1rem;
+  padding: 1.25rem;
 }
 
 .results-header {
+  margin-top: 0.25em;
   font-family: 'Merriweather';
   font-weight: bold;
   font-size: 24px;
@@ -685,7 +690,7 @@ body {
   border: 3px solid #FA8669;
   box-shadow: 0px 4px 4px rgba(250, 134, 105, 0.25);
   background-color: #fff;
-  padding: 1rem;
+  padding: 1.5rem;
 }
 
 .result-image {
@@ -1108,4 +1113,8 @@ body {
   .action-header-info .action-logo {
     flex-basis: 20%;
   }
-}
+
+  .result-image {
+    width: 100%;
+  }
+  }
