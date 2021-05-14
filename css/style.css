@@ -699,8 +699,8 @@ body {
 
 .result-image {
   width: 100%;
-  width: 350px !important;
-  height: 520px !important;
+  width: 350px;
+  height: 520px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
@@ -729,6 +729,7 @@ body {
   justify-content: space-between;
   flex-wrap: wrap;
 }
+
 
 .audio-before {
   border: 3px solid #FA8669;
