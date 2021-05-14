@@ -1126,4 +1126,7 @@ body {
     .audio-result {
       width: 100%;
     }
+    .result-image {
+      width: auto;
+    }
   }
