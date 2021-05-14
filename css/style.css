@@ -1086,47 +1086,48 @@ body {
     margin: 0;
   }
 
-    .telegram,
-    .whatsapp {
-      flex-basis: 100%;
-      margin-right: 0;
-    }
-
-    .whatsapp {
-      margin-bottom: 20px;
-    }
-
-    .price-card {
-      margin-bottom: 35px;
-    }
-
-    .who-this-course-title {
-      margin-bottom: 45px;
-    }
-
-    .questions-info .who-this-course-title {
-      padding: 0 5%;
-    }
-
-    .action-block {
-      padding: 0 5%;
-    }
-
-    .action-header-info {
-      display: block;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-    }
-
-    .action-header-info .action-logo {
-      flex-basis: 20%;
-    }
-
-    .audio-result {
-      width: 100%;
-    }
-    .result-image {
-      width: auto;
-    }
+  .telegram,
+  .whatsapp {
+    flex-basis: 100%;
+    margin-right: 0;
   }
+
+  .whatsapp {
+    margin-bottom: 20px;
+  }
+
+  .price-card {
+    margin-bottom: 35px;
+  }
+
+  .who-this-course-title {
+    margin-bottom: 45px;
+  }
+
+  .questions-info .who-this-course-title {
+    padding: 0 5%;
+  }
+
+  .action-block {
+    padding: 0 5%;
+  }
+
+  .action-header-info {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .action-header-info .action-logo {
+    flex-basis: 20%;
+  }
+
+  .audio-result {
+    width: 100%;
+  }
+
+  .result-image {
+    width: 100%;
+  }
+}
