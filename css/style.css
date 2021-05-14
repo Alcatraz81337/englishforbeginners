@@ -1082,50 +1082,54 @@ body {
     flex-wrap: wrap;
   }
 
-  .telegram,
-  .whatsapp {
-    flex-basis: 100%;
-    margin-right: 0;
+  .results-audio {
+    margin: 0;
   }
 
-  .whatsapp {
-    margin-bottom: 20px;
-  }
+    .telegram,
+    .whatsapp {
+      flex-basis: 100%;
+      margin-right: 0;
+    }
 
-  .price-card {
-    margin-bottom: 35px;
-  }
+    .whatsapp {
+      margin-bottom: 20px;
+    }
 
-  .who-this-course-title {
-    margin-bottom: 45px;
-  }
+    .price-card {
+      margin-bottom: 35px;
+    }
 
-  .questions-info .who-this-course-title {
-    padding: 0 5%;
-  }
+    .who-this-course-title {
+      margin-bottom: 45px;
+    }
 
-  .action-block {
-    padding: 0 5%;
-  }
+    .questions-info .who-this-course-title {
+      padding: 0 5%;
+    }
 
-  .action-header-info {
-    display: block;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-  }
+    .action-block {
+      padding: 0 5%;
+    }
 
-  .action-header-info .action-logo {
-    flex-basis: 20%;
-  }
+    .action-header-info {
+      display: block;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
 
-  .audio-result {
-    width: 100%;
-  }
+    .action-header-info .action-logo {
+      flex-basis: 20%;
+    }
 
-  .result-image {
-    width: 350px;
-    height: 520px;
-    width: 100%;
+    .audio-result {
+      width: 100%;
+    }
+
+    .result-image {
+      width: 350px;
+      height: 520px;
+      width: 100%;
+    }
   }
-}
