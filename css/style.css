@@ -740,6 +740,9 @@ body {
 .audio-after {
   box-shadow: 0px 4px 4px rgba(250, 134, 105, 0.25);
 }
+.student-outro {
+  margin: auto;
+}
 
 .action {
   display: flex;
