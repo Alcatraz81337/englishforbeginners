@@ -762,6 +762,13 @@ body {
 .action-block-header {
   background: #FFFFFF;
   padding: 12px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.action-logo {
+  display: flex;
 }
 
 .action-author-name {
